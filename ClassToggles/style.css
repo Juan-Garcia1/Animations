@@ -1,0 +1,48 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+nav {
+  top: 0;
+  display: flex;
+  padding: 10px 5px;
+  position: sticky;
+  background-color: #fff;
+  justify-content: flex-end;
+}
+nav div {
+  display: flex;
+}
+nav div a {
+  color: #666;
+  margin: 0px 15px;
+  display: block;
+  padding: 10px 15px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+nav div a.active {
+  background: #00a;
+  color: #fff;
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#home {
+  background: green;
+}
+#about {
+  background: lightsalmon;
+}
+#services {
+  background: lightgray;
+}
+#contact {
+  background: lightpink;
+}
